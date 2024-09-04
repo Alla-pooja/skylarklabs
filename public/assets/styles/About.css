@@ -1,0 +1,109 @@
+.about-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background: #080110;
+    min-height: 100vh; /* Full viewport height */
+    width: 100%; /* Full width */
+    box-sizing: border-box; /* Include padding in width calculations */
+  }
+  
+  /* Heading styles */
+  .about-heading {
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 2.5rem;
+    background: linear-gradient(90deg, #714DFF, #3992DE, #FFFFFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Typography styles */
+  .about-description {
+    max-width: 800px;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #fff;
+    font-size: 1.2rem;
+  }
+  
+  /* Card container styles */
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    max-width: 1800px;
+    justify-content: center;
+    margin-right: 12%;
+  }
+  
+  /* Box styles */
+  .card-box {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    border: 2px solid #3C3C77;
+    width: 120%;
+    border-radius: 20px;
+    background-color: #15152E;
+  }
+  
+  /* Image styles */
+  .card-image {
+    width: 500px;
+    height: auto;
+    margin: 10%;
+  }
+  
+  /* Card text styles */
+  .card-title {
+    font-weight: bold;
+    color: #fff;
+    font-size: 22px;
+    margin-left: 20px;
+  }
+  
+  .card-content {
+    color: #fff;
+    text-align: justify;
+    max-width: 350px;
+    margin-top: 20px;
+  }
+  
+  /* Button styles */
+  .book-demo-button {
+    background: radial-gradient(
+        231.94% 231.94% at 50% 100%,
+        #8a6cff 0,
+        rgba(53, 41, 128, 0) 25.24%
+      ),
+      linear-gradient(180deg, rgba(243, 238, 255, 0), rgba(243, 238, 255, 0.04)),
+      rgba(147, 130, 255, 0.01);
+    box-shadow: 0 0 0 0 rgba(16, 0, 51, 0.4), 0 2px 5px 0 rgba(16, 0, 51, 0.39),
+      0 8px 8px 0 rgba(16, 0, 51, 0.34), 0 19px 11px 0 rgba(16, 0, 51, 0.2),
+      0 34px 14px 0 rgba(16, 0, 51, 0.06), 0 53px 15px 0 rgba(16, 0, 51, 0.01),
+      inset 0 0 12px 0 hsla(0, 0%, 100%, 0.08), inset 0 -8px 32px 0 #1e0d49;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 20px;
+    color: #fff;
+    font-weight: 500;
+    position: relative;
+    padding: 8px 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 70px;
+    border: none;
+    cursor: pointer;
+  }
+  

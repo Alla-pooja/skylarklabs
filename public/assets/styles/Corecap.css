@@ -1,0 +1,117 @@
+.cardContainer {
+    background: #080110;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 60px 0;
+    background: linear-gradient(to right, #4F1D5A, #4C1D5A, #3D205A, #142152, #2A2157);
+    backdrop-filter: blur(10px);
+    height: 33.5em;
+    background-image: linear-gradient(to right, #601959, #4f1d5a, #3d205a, #2a2157, #142152);
+    position: relative;
+    z-index: 9;
+  }
+  
+  .card {
+    background-color: rgba(217, 217, 217, 0.5);
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    height: 30%;
+    min-height: 100px;
+    width: 70%;
+  }
+  
+  .image {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  
+  .title {
+    text-align: center;
+    margin: 40px 0;
+    color: white;
+    font-size: 2em;
+  }
+  
+  .newSectionTitle {
+    font-size: 3.5em;
+    margin-bottom: 40px;
+    background: linear-gradient(45deg, #714DFF 46%, #9042B2 67%, #B39865 88%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .section {
+    padding: 40px 0;
+    background: #080110;
+  }
+  
+  .imageContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .imageBox {
+    max-width: 400px;
+    flex: 1;
+    text-align: center;
+  }
+  
+  .imageBoxImg {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 15px;
+  }
+  
+  .spanFirstWordStyle {
+    background: linear-gradient(50deg, #3498DB 31.28%, #714DFF 77.97%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+  }
+  
+  .keyFeatures {
+    font-weight: 400;
+    color: #b0b0b0;
+    line-height: normal;
+    box-sizing: border-box;
+    border: 1px solid #e5e7eb1c;
+    border-radius: 8px;
+    height: 100%;
+    background: linear-gradient(0deg, hsla(0, 0%, 100%, .06), hsla(0, 0%, 100%, .06));
+    -webkit-mask: linear-gradient(#fff, #fff) content-box content-box, linear-gradient(#fff, #fff);
+    padding: 15px;
+    overflow: hidden;
+    position: relative;
+    font-size: 12px;
+    transition: transform 1.2s;
+  }
+  
+  .keyFeatures:hover {
+    transform: translateY(-10px);
+  }
+  
+  .keyFeatures::after {
+    background: radial-gradient(34.71% 34.71% at 56.45% 63.48%, #8a6cff 23.44%, rgba(138, 108, 255, 0) 72.92%);
+    filter: blur(32px);
+    will-change: transform;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    position: absolute;
+    content: "";
+    z-index: 0;
+    bottom: -100px;
+    left: -160px;
+    width: 296px;
+    height: 296px;
+  }
+  

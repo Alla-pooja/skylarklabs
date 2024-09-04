@@ -1,0 +1,82 @@
+/* Style for the header */
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+  position: relative;
+  z-index: 9999;
+  width: 100%;
+  box-sizing: border-box;
+  left: 0;
+  background: linear-gradient(to right, #000000, #0A050F, #1E053B, #160C23, #150529, #000000); /* Gradient background */
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* Style for the body */
+.body {
+  font-weight: 400;
+  margin: 0;
+  overflow-x: hidden;
+  padding: 0;
+  position: relative;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  border-top: 1px solid white;
+}
+
+/* Style for the announcement bar */
+.announcement-bar {
+  text-align: center;
+  padding: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  background: #130E0E;
+  color: white;
+  border-bottom: 1px solid #d8c9bf;
+  z-index: 1000;
+  font-weight: 400;
+}
+
+.announcement-bar h3 {
+  margin: 0;
+  font-size: 12px;
+  line-height: 1.5;
+  background: transparent;
+}
+
+/* Style for navigation links */
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  margin: 0 20px;
+}
+
+.nav-link {
+  color: #fff;
+  font-size: 16px; /* Default font size */
+  padding: 8px 12px;
+  font-family: 'Futura PT', sans-serif;
+  font-weight: 100;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+}
+
+/* Style for header logo */
+.header-logo img {
+  width: 200px; /* Adjust as needed */
+}
+
+/* Style for USFCR logo */
+.usfcr-logo img {
+  width: 90px; /* Adjust as needed */
+}

@@ -1,0 +1,88 @@
+/* Container for the page */
+.content-below-banner {
+    background: #080110;
+    color: #fff;
+    padding: 20px 0;
+}
+
+/* Centered text styles */
+.centered-text {
+    text-align: center;
+    font-size: 27px;
+    font-weight: bold;
+    background: #080110;
+    color: white;
+    /* margin-bottom: 30px; */
+}
+
+.centered-text-sec {
+    text-align: center;
+    font-size: 19px;
+    background: #080110;
+    color: white;
+    margin-bottom: 35px;
+    margin-top: 20px;
+    font-weight: italic;
+}
+
+/* Gradient text style */
+.span-first-word {
+    background: linear-gradient(50deg, #714dff, #9c83ff 31.28%, #2EA3FF 77.97%, #2EA3FF 95.64%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Container for text and YouTube video */
+.productoverviewblock {
+    background-color: #150F1D;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    margin-left: 17%;
+}
+
+/* Flex container for card content */
+.card-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-left: 20px;
+}
+
+/* Right block text styles */
+.homeright-block {
+    padding: 20px;
+    
+}
+
+.homeright-block h2 {
+    margin-top: 0;
+    font-size: 1.5em;
+    color: white;
+}
+
+.homeright-block p {
+    font-size: 20px;
+    line-height: 1.6;
+    color: white;
+}
+
+/* Left block video styles */
+.videoleftblock {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center video vertically */
+}
+
+.videoleftblock .react-player {
+    width: 100%;
+    height: 100%;
+    border: none; /* Remove default iframe border */
+}

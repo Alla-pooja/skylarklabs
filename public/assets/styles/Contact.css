@@ -1,0 +1,140 @@
+/* Background container styles */
+.background-container {
+    background-image: url('/images/contact.png'); /* Absolute path from the public directory */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 80px;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+  }
+  
+  /* Contact Us text styles */
+  .contact-us-text {
+    background: linear-gradient(90deg, #714DFF, #3992DE, #FFFFFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    font-size: 80px;
+    text-align: left;
+    position: absolute;
+    top: 22%;
+    left: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    margin-top: 0px;
+    margin-bottom: 50%;
+  }
+  
+  /* Container for the Cards */
+  .card-container {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap; /* Allow cards to wrap to the next line if necessary */
+    justify-content: center; /* Center the cards horizontally */
+  }
+  
+  /* General Card styles */
+  .card {
+    width: 350px;
+    height: 350px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: transparent;
+    background-size: cover;
+    background-position: center;
+    background-image: url('/images/Logo New (27) 1.png'); /* Absolute path from the public directory */
+    box-sizing: border-box;
+  }
+  
+  /* Card styles for Card 2 */
+  .card-2 {
+    display: flex;
+    flex-direction: column; /* Align children vertically */
+    align-items: center; /* Center children horizontally */
+    justify-content: center; /* Center children vertically */
+    background-image: url('/images/Logo New (27) 1.png'); /* Absolute path from the public directory */
+    background-color: transparent;
+    box-sizing: border-box;
+  }
+  
+  /* Card Image styles for Card 2 */
+  .card-2 .card-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-bottom: 10px; /* Spacing below the image */
+    display: block; /* Ensure image is treated as a block element */
+    align-self: center; /* Center horizontally within flex container */
+  }
+  
+  /* Card Heading styles for Card 2 */
+  .card-2 .card-heading {
+    text-align: center;
+    margin-bottom: 10px; /* Spacing below the heading */
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  /* Button styles for Card 2 */
+  .card-2 .send-email-button {
+    padding: 10px 20px; /* Adjust padding for the button */
+    border-radius: 30px; /* Rounded corners */
+    font-size: 14px; /* Font size */
+    text-decoration: underline; /* Underline text */
+    background-image: url('/images/Rectangle 7.png'); /* Absolute path from the public directory */
+    background-color: transparent; /* Transparent background */
+    background-size: cover; /* Cover the entire button */
+    cursor: pointer; /* Pointer on hover */
+    border: none; /* Remove default button border */
+    color: #fff; /* Text color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    width:50%;
+    height:13%;
+  }
+  
+  /* Text styles within card */
+  .card-content {
+    color: #fff;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left; /* Center the text horizontally */
+    margin-left: 20px;
+  }
+  
+  /* Typography styles */
+  .typography-bold {
+    padding: 1px 0;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Arial;
+  
+  }
+  
+  .typography-regular {
+    padding: 0px 0;
+  }
+  
+  .typography-regular1 {
+    padding: 0px 0;
+  }
+  
+  .spanFirstWordStyle {
+    background: linear-gradient(50deg, #3498DB 31.28%, #714DFF 77.97%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+  }
